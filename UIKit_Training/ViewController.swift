@@ -7,13 +7,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var confirmedLabel: UILabel!
+    @IBOutlet weak var deathsLabel: UILabel!
+    @IBOutlet weak var recoveredLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
+        
+        confirmedLabel.text = "CONFIRMED: \(covid.confirmed!)"
+        deathsLabel.text = "DEATHS: \(covid.deaths!)"
+        recoveredLabel.text = "RECOVERED: \(covid.recovered!)"
 
 }
+    
 
+    
+    
+    
+}

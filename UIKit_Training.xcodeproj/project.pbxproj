@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E762A6625D4534000D8C5E1 /* CovidLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E762A6525D4534000D8C5E1 /* CovidLive.swift */; };
 		1E93918125CC453100BE6CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93918025CC453100BE6CE1 /* AppDelegate.swift */; };
 		1E93918325CC453100BE6CE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93918225CC453100BE6CE1 /* SceneDelegate.swift */; };
 		1E93918525CC453100BE6CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93918425CC453100BE6CE1 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E762A6525D4534000D8C5E1 /* CovidLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidLive.swift; sourceTree = "<group>"; };
 		1E93917D25CC453100BE6CE1 /* UIKit_Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKit_Training.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E93918025CC453100BE6CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E93918225CC453100BE6CE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				1E93918025CC453100BE6CE1 /* AppDelegate.swift */,
 				1E93918225CC453100BE6CE1 /* SceneDelegate.swift */,
 				1E93918425CC453100BE6CE1 /* ViewController.swift */,
+				1E762A6525D4534000D8C5E1 /* CovidLive.swift */,
 				1E93918625CC453100BE6CE1 /* Main.storyboard */,
 				1E93918925CC453200BE6CE1 /* Assets.xcassets */,
 				1E93918B25CC453200BE6CE1 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				1E93918525CC453100BE6CE1 /* ViewController.swift in Sources */,
 				1E93918125CC453100BE6CE1 /* AppDelegate.swift in Sources */,
 				1E93918325CC453100BE6CE1 /* SceneDelegate.swift in Sources */,
+				1E762A6625D4534000D8C5E1 /* CovidLive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
